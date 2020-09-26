@@ -1,0 +1,8 @@
+/console-app/bin
+/console-app/obj
+/MartianRobots/bin
+/MartianRobots/obj
+/test-MartianRobots/bin
+/test-MartianRobots/obj
+.DS_Store
+.NET/.DS_Store
