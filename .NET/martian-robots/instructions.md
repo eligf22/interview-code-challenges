@@ -1,6 +1,23 @@
 # Martian robots
 Here we present a problem to solve. We will value the use of tests for the code challenge resolution.
 
+## Martian Robots Exercise Solution Notes
+
+*   To test this this solution you can test the console application as well as the unit tests.
+*   In the Program.cs you will find the inputs used to test the solution, please comment/uncomment or add as needed.
+*   Unit test coverage is not 100%. 
+*   I am asuming the user will not add two robots starting in the same coodinates. Like for example:
+    ```
+    5 3
+    1 1 E
+    RFRFRFRF
+    1 1 E
+    FRRFLLFFRRFLL
+    0 3 W
+    LLFFFLFLFL
+    ```
+*   The input must go in the following format: 
+        "5 3\n1 1 E\nRFRFRFRF\n3 2 N\nFRRFLLFFRRFLL\n0 3 W\nLLFFFLFLFL";
 ## The Problem
 
 The surface of Mars can be modelled by a rectangular grid around which robots are able to move according to instructions provided from Earth. You are to write a program that determines each sequence of robot positions and reports the final position of the robot.

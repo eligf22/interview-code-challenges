@@ -2,8 +2,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-
-namespace MartianRobots
+namespace MartianRobots.Models
 {
     public class Scent
     {

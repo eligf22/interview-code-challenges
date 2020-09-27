@@ -1,6 +1,6 @@
 using System;
 
-namespace MartianRobots
+namespace MartianRobots.Models
 {
     public class Position
     {
